@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-05T12:26:39 IST" name="LOAN" finished-at="2022-08-05T12:26:39 IST" duration-ms="128">
+    <groups>
+      <group name="smoke">
+        <method signature="CarLoan.clDetails()[pri:0, instance:test.CarLoan@76508ed1]" name="clDetails" class="test.CarLoan"/>
+        <method signature="HomeLoan.hlSubmitPropertyDetails()[pri:0, instance:test.HomeLoan@1cbbffcd]" name="hlSubmitPropertyDetails" class="test.HomeLoan"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-08-05T12:26:39 IST" name="PersonalLoan" finished-at="2022-08-05T12:26:39 IST" duration-ms="55">
+      <class name="test.PersonalLoan">
+        <test-method is-config="true" signature="plLoginpage()[pri:0, instance:test.PersonalLoan@769f71a9]" started-at="2022-08-05T12:26:39 IST" name="plLoginpage" finished-at="2022-08-05T12:26:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plLoginpage -->
+        <test-method is-config="true" signature="plclass()[pri:0, instance:test.PersonalLoan@769f71a9]" started-at="2022-08-05T12:26:39 IST" name="plclass" finished-at="2022-08-05T12:26:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plclass -->
+        <test-method is-config="true" signature="plNavigateTotoolbar()[pri:0, instance:test.PersonalLoan@769f71a9]" started-at="2022-08-05T12:26:39 IST" name="plNavigateTotoolbar" finished-at="2022-08-05T12:26:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plNavigateTotoolbar -->
+        <test-method signature="plInstructionPage()[pri:1, instance:test.PersonalLoan@769f71a9]" started-at="2022-08-05T12:26:39 IST" name="plInstructionPage" finished-at="2022-08-05T12:26:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plInstructionPage -->
+        <test-method is-config="true" signature="plEnterBack()[pri:0, instance:test.PersonalLoan@769f71a9]" started-at="2022-08-05T12:26:39 IST" name="plEnterBack" finished-at="2022-08-05T12:26:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plEnterBack -->
+        <test-method is-config="true" signature="plNavigateTotoolbar()[pri:0, instance:test.PersonalLoan@769f71a9]" started-at="2022-08-05T12:26:39 IST" name="plNavigateTotoolbar" finished-at="2022-08-05T12:26:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plNavigateTotoolbar -->
+        <test-method signature="plEmicalculatorPage()[pri:2, instance:test.PersonalLoan@769f71a9]" started-at="2022-08-05T12:26:39 IST" name="plEmicalculatorPage" finished-at="2022-08-05T12:26:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plEmicalculatorPage -->
+        <test-method is-config="true" signature="plEnterBack()[pri:0, instance:test.PersonalLoan@769f71a9]" started-at="2022-08-05T12:26:39 IST" name="plEnterBack" finished-at="2022-08-05T12:26:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plEnterBack -->
+        <test-method is-config="true" signature="plLogout()[pri:0, instance:test.PersonalLoan@769f71a9]" started-at="2022-08-05T12:26:39 IST" name="plLogout" finished-at="2022-08-05T12:26:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plLogout -->
+      </class> <!-- test.PersonalLoan -->
+      <class name="test.PersonalLoan2">
+        <test-method is-config="true" signature="plclass2()[pri:0, instance:test.PersonalLoan2@3c419631]" started-at="2022-08-05T12:26:39 IST" name="plclass2" finished-at="2022-08-05T12:26:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plclass2 -->
+        <test-method signature="plInst2()[pri:0, instance:test.PersonalLoan2@3c419631]" started-at="2022-08-05T12:26:39 IST" name="plInst2" finished-at="2022-08-05T12:26:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plInst2 -->
+        <test-method signature="pllogin2()[pri:0, instance:test.PersonalLoan2@3c419631]" started-at="2022-08-05T12:26:39 IST" name="pllogin2" finished-at="2022-08-05T12:26:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pllogin2 -->
+      </class> <!-- test.PersonalLoan2 -->
+    </test> <!-- PersonalLoan -->
+    <test started-at="2022-08-05T12:26:39 IST" name="CarLoan" finished-at="2022-08-05T12:26:39 IST" duration-ms="9">
+      <class name="test.CarLoan">
+        <test-method signature="clDetails()[pri:0, instance:test.CarLoan@76508ed1]" started-at="2022-08-05T12:26:39 IST" name="clDetails" finished-at="2022-08-05T12:26:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clDetails -->
+        <test-method signature="clChoosevehicle()[pri:0, instance:test.CarLoan@76508ed1]" started-at="2022-08-05T12:26:39 IST" name="clChoosevehicle" finished-at="2022-08-05T12:26:39 IST" depends-on-methods="test.CarLoan.clDetails" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clChoosevehicle -->
+        <test-method is-config="true" signature="plLogout()[pri:0, instance:test.CarLoan@76508ed1]" started-at="2022-08-05T12:26:39 IST" name="plLogout" finished-at="2022-08-05T12:26:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plLogout -->
+      </class> <!-- test.CarLoan -->
+    </test> <!-- CarLoan -->
+    <test started-at="2022-08-05T12:26:39 IST" name="HomeLoan" finished-at="2022-08-05T12:26:39 IST" duration-ms="10">
+      <class name="test.PersonalLoan">
+        <test-method is-config="true" signature="OpenLoanURL()[pri:0, instance:test.PersonalLoan@769f71a9]" started-at="2022-08-05T12:26:39 IST" name="OpenLoanURL" finished-at="2022-08-05T12:26:39 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLoanURL -->
+        <test-method is-config="true" signature="CloseLoanURL()[pri:0, instance:test.PersonalLoan@769f71a9]" started-at="2022-08-05T12:26:39 IST" name="CloseLoanURL" finished-at="2022-08-05T12:26:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseLoanURL -->
+      </class> <!-- test.PersonalLoan -->
+      <class name="test.HomeLoan">
+        <test-method signature="hlSubmitPropertyDetails()[pri:0, instance:test.HomeLoan@1cbbffcd]" started-at="2022-08-05T12:26:39 IST" name="hlSubmitPropertyDetails" finished-at="2022-08-05T12:26:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hlSubmitPropertyDetails -->
+        <test-method signature="hlDetails()[pri:1, instance:test.HomeLoan@1cbbffcd]" started-at="2022-08-05T12:26:39 IST" name="hlDetails" finished-at="2022-08-05T12:26:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hlDetails -->
+        <test-method is-config="true" signature="plLogout()[pri:0, instance:test.HomeLoan@1cbbffcd]" started-at="2022-08-05T12:26:39 IST" name="plLogout" finished-at="2022-08-05T12:26:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plLogout -->
+      </class> <!-- test.HomeLoan -->
+    </test> <!-- HomeLoan -->
+  </suite> <!-- LOAN -->
+</testng-results>
